@@ -1,1 +1,90 @@
 
+/* for the proujucts(the box moudle) */
+.card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-block: 2rem;
+  /* format for the larger continer having padding for puting putween continer-box and other futhers for coloring */
+}
+.box-row {
+  /* puting rules for how the boxses will be desplied toghither */
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  /* for it to be flexsiple when making the page bigger or smaller  */
+  justify-content: center;
+}
+
+.box {
+  /* making the boxses to all have the same size padding border etc */
+  flex: 1 1 300px;
+  max-width: 320px;
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  background: #fafafa;
+  font-weight:600;
+}
+/* addin colouers for each box */
+.b1,.b2,.b3 {
+  background: #b2c8b7;
+  border-color: #3a5246;
+   }
+/* here i'm using flexs for the btn to displie on the opesite side from h2 
+adding deitles such as justify etc */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 8px 0 20px 0;
+  padding: 0 20px;
+
+}
+/* for formating all of the buttens (that fall after nav) or the submit btn the same */
+.nav a ,#submite, button{
+  text-decoration: none;
+  color: white;
+  background: #b2c8b7;
+  padding: 10px 20px;
+  border-radius: 8px;
+  max-width: 200;
+  border: 1px solid #e0e7ff;
+}
+/* adding a hover effects for it to change colors when going over it */
+.nav a:hover, button:hover
+ { background: #395748; }
+div > p , h2{
+  color: white;
+}
+/* making about me objucets all be on the same line and making it flexsiple when xhange of screanse and formating bettwen them */
+#about_me{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* adding colors to heddings */
+h1,h3,li{
+  color: #395748;
+}
+/* formating a continer (box) for the forme to enhanse it design and adjust it size */
+.card2{
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.hide{
+    display: none;
+}
