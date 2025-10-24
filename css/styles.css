@@ -30,11 +30,15 @@
   justify-content: center;
   background: #fafafa;
   font-weight:600;
+  
 }
 /* addin colouers for each box */
 .b1,.b2,.b3 {
   background: #b2c8b7;
   border-color: #3a5246;
+   }
+.b1:hover,.b2:hover,.b3:hover{
+  background: #52855e;
    }
 /* here i'm using flexs for the btn to displie on the opesite side from h2 
 adding deitles such as justify etc */
