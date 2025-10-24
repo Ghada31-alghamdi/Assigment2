@@ -17,7 +17,7 @@ After completing Assignment 1, several new features and enhancements were added 
 
 * Demonstrates the use of asynchronous JavaScript (fetch).
 
-3. Hover Effects on Buttons and Cards
+## Hover Effects on Buttons and Cards
 
 * Introduced CSS hover effects for buttons and project cards to enhance interactivity.
 
