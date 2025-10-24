@@ -1,7 +1,7 @@
 # Technaical Documentation for added part after assigment1 
 After completing Assignment 1, several new features and enhancements were added to improve functionality and user experience.
 
-1. Project Filter Buttons
+## Project Filter Buttons
 
 * Implemented filter buttons using JavaScript to display projects based on their selected topic or category.
 
@@ -9,7 +9,7 @@ After completing Assignment 1, several new features and enhancements were added 
 
 * Improves user navigation and content organization.
 
-2. Random Cat Fact Generator
+## Random Cat Fact Generator
 
 * Added a Random Cat Facts Generator that fetches data from a public cat facts API using the fetch() method.
 
@@ -25,7 +25,7 @@ After completing Assignment 1, several new features and enhancements were added 
 
 * Improves UI/UX by providing visual feedback on user interactions.
 
-4. User Feedback on Form Fields
+## User Feedback on Form Fields
 
 * Enhanced the Contact Form with input validation and real-time user feedback.
 
