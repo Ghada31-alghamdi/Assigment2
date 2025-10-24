@@ -25,3 +25,23 @@ button2.addEventListener("click", function(){filter_projuct("Web_Devalpment")})
 button3.addEventListener("click", function(){filter_projuct("Hardwarye_Design")})
 button4.addEventListener("click", function(){filter_projuct("System")})
 
+const button5 =document.getElementById("cat");
+const fact =document.getElementById("fact");
+
+button5.addEventListener("click", function (){
+fetch("https://meowfacts.herokuapp.com/")
+  .then(function (response) {
+    if (!response.ok) {      
+      throw new Error("HTTP " + response.status);
+    }
+    return response.json();           
+  })
+  .then(function (data) {
+    console.log(data)
+    fact.innerHTML=data.data[0]
+  })
+  .catch(function (err) {
+    fact.innerHTML="Sorry we have an error";
+  });
+
+});

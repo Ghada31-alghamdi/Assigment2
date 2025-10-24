@@ -71,7 +71,7 @@ div > p , h2{
   justify-content: center;
 }
 /* adding colors to heddings */
-h1,h3,li{
+h1,h2,h3,li{
   color: #395748;
 }
 /* formating a continer (box) for the forme to enhanse it design and adjust it size */
