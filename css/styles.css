@@ -80,6 +80,7 @@ h1,h2,h3,li{
 }
 /* formating a continer (box) for the forme to enhanse it design and adjust it size */
 .card2{
+  justify-content: center;
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 12px;
@@ -88,7 +89,9 @@ h1,h2,h3,li{
   display: flex;
   flex-direction: column;
   gap: 15px;
+
 }
 .hide{
+  /*adding a display none so i can add it to hide unwanted projuects*/
     display: none;
 }
