@@ -25,11 +25,11 @@ After completing Assignment 1, several new features and enhancements were added 
 
 * Improves UI/UX by providing visual feedback on user interactions.
 
-## User Feedback on Form Fields
+## User Feedback on Form Fields and Error message
 
-* Enhanced the Contact Form with input validation and real-time user feedback.
+* Enhanced the Contact Form with input validation and real-time user feedback by displaying propre Error message when data are not fetched.
 
-* Displays visual cues to indicate correct or incorrect entries.
+* Displays visual cues to indicate correct or incorrect entries in the form using html defulet alltrubute.
 
 * Ensures better form usability and error prevention.
 
